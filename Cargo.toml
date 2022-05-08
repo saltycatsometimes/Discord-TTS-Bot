@@ -28,7 +28,6 @@ num-format = "0.4"
 parking_lot = "0.12"
 strum_macros = "0.24"
 generic-array = "0.14"
-#serenity = { git = "https://github.com/serenity-rs/serenity", branch = "next", default-features = false, features = ["simdjson"] }
 
 [dependencies.sqlx]
 version = "0.5"
