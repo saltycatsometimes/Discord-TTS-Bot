@@ -153,6 +153,8 @@ fn parse_acronyms(original: &str) -> String {
             "cya" => "see ya",
             "ik" => "i know",
             "@" => "at",
+            "pls" | "plz" => "please"
+            "alr" => "alright"
             "™️" => "tm",
             _ => word,
         }
